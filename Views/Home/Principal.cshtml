@@ -1,0 +1,103 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Custom styles-->
+    <link rel="stylesheet" type="text/css" href="~/Css/style_principal.css">
+</head>
+
+<body>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="@Url.Action("Principal","Home")">Servicio Evalucion de Desempeño</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Registrar","Registrar")">
+                            Registrar
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Trabajadores","Trabajadores")">
+                            Ver Trabajadores
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    @*Codigo para la presentacion*@
+    <section class="banner-section">
+    </section>
+    <section class="post-content-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+                    <h1 class="text-center">Evalucion de Desempeño</h1>
+                    <ul class="list-inline text-center">
+                        <li>Alexis y Miguel |</li>
+                        <li>Evaluación |</li>
+                        <li>26-10-2022 |</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p class="lead">El siguiente sistema consiste en mejorar el sistema de evaluación de desempeño de la empresa Plaza Vea.</p>
+                </div>
+                
+                    <div class="col-lg-4  col-md-4 col-sm-4">
+                        <div class="well">
+                            <h2>Objetivo</h2>
+                            <img src="" class="img-rounded" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                            <a href="#" class="btn btn-default">Read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-4">
+                        <div class="well">
+                            <h2>Nostros</h2>
+                            <img src="" class="img-rounded" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                            <a href="#" class="btn btn-default">Read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-4">
+                        <div class="well">
+                            <h2>Contactos</h2>
+                            <img src="" class="img-rounded" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                            <a href="#" class="btn btn-default">Read more</a>
+                        </div>
+                
+            </div>
+        </div><!-- /container -->
+    </section>
+
+
+</body>
+</html>
+
+
+
